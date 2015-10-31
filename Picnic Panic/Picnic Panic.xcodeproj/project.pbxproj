@@ -1,0 +1,536 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2311F0831588DAC300DFFD22 /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 2311F0821588DAC300DFFD22 /* Icon.png */; };
+		2311F0901588DE3100DFFD22 /* menuWithoutButtons.png in Resources */ = {isa = PBXBuildFile; fileRef = 2311F08C1588DE3100DFFD22 /* menuWithoutButtons.png */; };
+		2311F0911588DE3100DFFD22 /* plate2Crumbs.png in Resources */ = {isa = PBXBuildFile; fileRef = 2311F08D1588DE3100DFFD22 /* plate2Crumbs.png */; };
+		2311F0921588DE3100DFFD22 /* plate3Crumby.png in Resources */ = {isa = PBXBuildFile; fileRef = 2311F08E1588DE3100DFFD22 /* plate3Crumby.png */; };
+		2311F0931588DE3100DFFD22 /* plateWithCrumbs.png in Resources */ = {isa = PBXBuildFile; fileRef = 2311F08F1588DE3100DFFD22 /* plateWithCrumbs.png */; };
+		233646D41577C130009B3E81 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 233646D31577C130009B3E81 /* UIKit.framework */; };
+		233646D61577C130009B3E81 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 233646D51577C130009B3E81 /* Foundation.framework */; };
+		233646D81577C130009B3E81 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 233646D71577C130009B3E81 /* CoreGraphics.framework */; };
+		233646DE1577C130009B3E81 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 233646DC1577C130009B3E81 /* InfoPlist.strings */; };
+		233646E01577C130009B3E81 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 233646DF1577C130009B3E81 /* main.m */; };
+		233646E41577C131009B3E81 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 233646E31577C131009B3E81 /* AppDelegate.m */; };
+		233646E71577C131009B3E81 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 233646E61577C131009B3E81 /* ViewController.m */; };
+		233646EA1577C131009B3E81 /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 233646E81577C131009B3E81 /* ViewController.xib */; };
+		233646F21577C131009B3E81 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 233646F11577C131009B3E81 /* SenTestingKit.framework */; };
+		233646F31577C131009B3E81 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 233646D31577C130009B3E81 /* UIKit.framework */; };
+		233646F41577C131009B3E81 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 233646D51577C130009B3E81 /* Foundation.framework */; };
+		233646FC1577C132009B3E81 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 233646FA1577C132009B3E81 /* InfoPlist.strings */; };
+		233646FF1577C132009B3E81 /* Picnic_PanicTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 233646FE1577C132009B3E81 /* Picnic_PanicTests.m */; };
+		234180F3157CFC1500D07700 /* GrassBackground.png in Resources */ = {isa = PBXBuildFile; fileRef = 234180F2157CFC1500D07700 /* GrassBackground.png */; };
+		234180F6157CFC1F00D07700 /* PicnicTablecloth.png in Resources */ = {isa = PBXBuildFile; fileRef = 234180F5157CFC1F00D07700 /* PicnicTablecloth.png */; };
+		234180F8157CFCAB00D07700 /* Ant2.png in Resources */ = {isa = PBXBuildFile; fileRef = 234180F7157CFCAB00D07700 /* Ant2.png */; };
+		23AAE571158B82FA00E0CEFE /* creditsPage copy.png in Resources */ = {isa = PBXBuildFile; fileRef = 23AAE56F158B82FA00E0CEFE /* creditsPage copy.png */; };
+		23AAE572158B82FA00E0CEFE /* How to Screen copy.png in Resources */ = {isa = PBXBuildFile; fileRef = 23AAE570158B82FA00E0CEFE /* How to Screen copy.png */; };
+		23AAE575158B885100E0CEFE /* Soundtrack2.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 23AAE574158B885100E0CEFE /* Soundtrack2.mp3 */; };
+		23AEFA50158A2E8200476267 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 23AEFA4F158A2E8200476267 /* AVFoundation.framework */; };
+		23AEFA55158A305100476267 /* EatingSound.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 23AEFA52158A305100476267 /* EatingSound.mp3 */; };
+		23AEFA56158A305100476267 /* Soundtrack2.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 23AEFA53158A305100476267 /* Soundtrack2.mp3 */; };
+		23AEFA57158A305100476267 /* Splat.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 23AEFA54158A305100476267 /* Splat.mp3 */; };
+		23AEFA5C158A358400476267 /* Sandwich Bite 2.png in Resources */ = {isa = PBXBuildFile; fileRef = 23AEFA58158A358400476267 /* Sandwich Bite 2.png */; };
+		23AEFA5D158A358400476267 /* Sandwich Bite 4.png in Resources */ = {isa = PBXBuildFile; fileRef = 23AEFA59158A358400476267 /* Sandwich Bite 4.png */; };
+		23AEFA5E158A358400476267 /* Sandwich Bite 5.png in Resources */ = {isa = PBXBuildFile; fileRef = 23AEFA5A158A358400476267 /* Sandwich Bite 5.png */; };
+		23AEFA5F158A358400476267 /* Sandwich.png in Resources */ = {isa = PBXBuildFile; fileRef = 23AEFA5B158A358400476267 /* Sandwich.png */; };
+		23AEFA61158A3A5000476267 /* Game Over.png in Resources */ = {isa = PBXBuildFile; fileRef = 23AEFA60158A3A5000476267 /* Game Over.png */; };
+		23DAA8DE15863702008B5696 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 23DAA8DD15863702008B5696 /* Default.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		233646F51577C131009B3E81 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 233646C61577C130009B3E81 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 233646CE1577C130009B3E81;
+			remoteInfo = "Picnic Panic";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2311F0821588DAC300DFFD22 /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
+		2311F08C1588DE3100DFFD22 /* menuWithoutButtons.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = menuWithoutButtons.png; path = "../../Picnic Panic Pictures/menuWithoutButtons.png"; sourceTree = "<group>"; };
+		2311F08D1588DE3100DFFD22 /* plate2Crumbs.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = plate2Crumbs.png; path = "../../Picnic Panic Pictures/plate2Crumbs.png"; sourceTree = "<group>"; };
+		2311F08E1588DE3100DFFD22 /* plate3Crumby.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = plate3Crumby.png; path = "../../Picnic Panic Pictures/plate3Crumby.png"; sourceTree = "<group>"; };
+		2311F08F1588DE3100DFFD22 /* plateWithCrumbs.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = plateWithCrumbs.png; path = "../../Picnic Panic Pictures/plateWithCrumbs.png"; sourceTree = "<group>"; };
+		233646CF1577C130009B3E81 /* Picnic Panic.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Picnic Panic.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		233646D31577C130009B3E81 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		233646D51577C130009B3E81 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		233646D71577C130009B3E81 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		233646DB1577C130009B3E81 /* Picnic Panic-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Picnic Panic-Info.plist"; sourceTree = "<group>"; };
+		233646DD1577C130009B3E81 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		233646DF1577C130009B3E81 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		233646E11577C130009B3E81 /* Picnic Panic-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Picnic Panic-Prefix.pch"; sourceTree = "<group>"; };
+		233646E21577C130009B3E81 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		233646E31577C131009B3E81 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		233646E51577C131009B3E81 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		233646E61577C131009B3E81 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		233646E91577C131009B3E81 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
+		233646F01577C131009B3E81 /* Picnic PanicTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Picnic PanicTests.octest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		233646F11577C131009B3E81 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		233646F91577C132009B3E81 /* Picnic PanicTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Picnic PanicTests-Info.plist"; sourceTree = "<group>"; };
+		233646FB1577C132009B3E81 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		233646FD1577C132009B3E81 /* Picnic_PanicTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Picnic_PanicTests.h; sourceTree = "<group>"; };
+		233646FE1577C132009B3E81 /* Picnic_PanicTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Picnic_PanicTests.m; sourceTree = "<group>"; };
+		234180F2157CFC1500D07700 /* GrassBackground.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = GrassBackground.png; path = "../../Picnic Panic Pictures/GrassBackground.png"; sourceTree = "<group>"; };
+		234180F5157CFC1F00D07700 /* PicnicTablecloth.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = PicnicTablecloth.png; path = "../../Picnic Panic Pictures/PicnicTablecloth.png"; sourceTree = "<group>"; };
+		234180F7157CFCAB00D07700 /* Ant2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Ant2.png; path = "../../Picnic Panic Pictures/Ant2.png"; sourceTree = "<group>"; };
+		23AAE56F158B82FA00E0CEFE /* creditsPage copy.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "creditsPage copy.png"; path = "../../Picnic Panic Pictures/creditsPage copy.png"; sourceTree = "<group>"; };
+		23AAE570158B82FA00E0CEFE /* How to Screen copy.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "How to Screen copy.png"; path = "../../Picnic Panic Pictures/How to Screen copy.png"; sourceTree = "<group>"; };
+		23AAE574158B885100E0CEFE /* Soundtrack2.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = Soundtrack2.mp3; path = "../../Picnic Panic BGM/Soundtrack2.mp3"; sourceTree = "<group>"; };
+		23AEFA4F158A2E8200476267 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		23AEFA52158A305100476267 /* EatingSound.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = EatingSound.mp3; path = "../../Picnic Panic BGM/EatingSound.mp3"; sourceTree = "<group>"; };
+		23AEFA53158A305100476267 /* Soundtrack2.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = Soundtrack2.mp3; path = "../../Picnic Panic BGM/Soundtrack2.mp3"; sourceTree = "<group>"; };
+		23AEFA54158A305100476267 /* Splat.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = Splat.mp3; path = "../../Picnic Panic BGM/Splat.mp3"; sourceTree = "<group>"; };
+		23AEFA58158A358400476267 /* Sandwich Bite 2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Sandwich Bite 2.png"; path = "../../Picnic Panic Pictures/Sandwich Bite 2.png"; sourceTree = "<group>"; };
+		23AEFA59158A358400476267 /* Sandwich Bite 4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Sandwich Bite 4.png"; path = "../../Picnic Panic Pictures/Sandwich Bite 4.png"; sourceTree = "<group>"; };
+		23AEFA5A158A358400476267 /* Sandwich Bite 5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Sandwich Bite 5.png"; path = "../../Picnic Panic Pictures/Sandwich Bite 5.png"; sourceTree = "<group>"; };
+		23AEFA5B158A358400476267 /* Sandwich.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Sandwich.png; path = "../../Picnic Panic Pictures/Sandwich.png"; sourceTree = "<group>"; };
+		23AEFA60158A3A5000476267 /* Game Over.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Game Over.png"; path = "../../Picnic Panic Pictures/Game Over.png"; sourceTree = "<group>"; };
+		23BB252915790EB200724310 /* Icon [FINAL].png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon [FINAL].png"; sourceTree = "<group>"; };
+		23DAA8DA158636EF008B5696 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		23DAA8DD15863702008B5696 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		233646CC1577C130009B3E81 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				23AEFA50158A2E8200476267 /* AVFoundation.framework in Frameworks */,
+				233646D41577C130009B3E81 /* UIKit.framework in Frameworks */,
+				233646D61577C130009B3E81 /* Foundation.framework in Frameworks */,
+				233646D81577C130009B3E81 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		233646EC1577C131009B3E81 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				233646F21577C131009B3E81 /* SenTestingKit.framework in Frameworks */,
+				233646F31577C131009B3E81 /* UIKit.framework in Frameworks */,
+				233646F41577C131009B3E81 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		233646C41577C130009B3E81 = {
+			isa = PBXGroup;
+			children = (
+				23AEFA4F158A2E8200476267 /* AVFoundation.framework */,
+				2311F0821588DAC300DFFD22 /* Icon.png */,
+				23DAA8DD15863702008B5696 /* Default.png */,
+				23DAA8DA158636EF008B5696 /* Default@2x.png */,
+				23BB252915790EB200724310 /* Icon [FINAL].png */,
+				233646D91577C130009B3E81 /* Picnic Panic */,
+				233646F71577C131009B3E81 /* Picnic PanicTests */,
+				233646D21577C130009B3E81 /* Frameworks */,
+				233646D01577C130009B3E81 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		233646D01577C130009B3E81 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				233646CF1577C130009B3E81 /* Picnic Panic.app */,
+				233646F01577C131009B3E81 /* Picnic PanicTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		233646D21577C130009B3E81 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				233646D31577C130009B3E81 /* UIKit.framework */,
+				233646D51577C130009B3E81 /* Foundation.framework */,
+				233646D71577C130009B3E81 /* CoreGraphics.framework */,
+				233646F11577C131009B3E81 /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		233646D91577C130009B3E81 /* Picnic Panic */ = {
+			isa = PBXGroup;
+			children = (
+				233646E21577C130009B3E81 /* AppDelegate.h */,
+				233646E31577C131009B3E81 /* AppDelegate.m */,
+				233646E51577C131009B3E81 /* ViewController.h */,
+				233646E61577C131009B3E81 /* ViewController.m */,
+				233646E81577C131009B3E81 /* ViewController.xib */,
+				233646DA1577C130009B3E81 /* Supporting Files */,
+			);
+			path = "Picnic Panic";
+			sourceTree = "<group>";
+		};
+		233646DA1577C130009B3E81 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				23AAE574158B885100E0CEFE /* Soundtrack2.mp3 */,
+				23AAE56F158B82FA00E0CEFE /* creditsPage copy.png */,
+				23AAE570158B82FA00E0CEFE /* How to Screen copy.png */,
+				23AEFA60158A3A5000476267 /* Game Over.png */,
+				23AEFA58158A358400476267 /* Sandwich Bite 2.png */,
+				23AEFA59158A358400476267 /* Sandwich Bite 4.png */,
+				23AEFA5A158A358400476267 /* Sandwich Bite 5.png */,
+				23AEFA5B158A358400476267 /* Sandwich.png */,
+				23AEFA52158A305100476267 /* EatingSound.mp3 */,
+				23AEFA53158A305100476267 /* Soundtrack2.mp3 */,
+				23AEFA54158A305100476267 /* Splat.mp3 */,
+				2311F08C1588DE3100DFFD22 /* menuWithoutButtons.png */,
+				2311F08D1588DE3100DFFD22 /* plate2Crumbs.png */,
+				2311F08E1588DE3100DFFD22 /* plate3Crumby.png */,
+				2311F08F1588DE3100DFFD22 /* plateWithCrumbs.png */,
+				234180F7157CFCAB00D07700 /* Ant2.png */,
+				234180F5157CFC1F00D07700 /* PicnicTablecloth.png */,
+				234180F2157CFC1500D07700 /* GrassBackground.png */,
+				233646DB1577C130009B3E81 /* Picnic Panic-Info.plist */,
+				233646DC1577C130009B3E81 /* InfoPlist.strings */,
+				233646DF1577C130009B3E81 /* main.m */,
+				233646E11577C130009B3E81 /* Picnic Panic-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		233646F71577C131009B3E81 /* Picnic PanicTests */ = {
+			isa = PBXGroup;
+			children = (
+				233646FD1577C132009B3E81 /* Picnic_PanicTests.h */,
+				233646FE1577C132009B3E81 /* Picnic_PanicTests.m */,
+				233646F81577C131009B3E81 /* Supporting Files */,
+			);
+			path = "Picnic PanicTests";
+			sourceTree = "<group>";
+		};
+		233646F81577C131009B3E81 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				233646F91577C132009B3E81 /* Picnic PanicTests-Info.plist */,
+				233646FA1577C132009B3E81 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		233646CE1577C130009B3E81 /* Picnic Panic */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 233647021577C132009B3E81 /* Build configuration list for PBXNativeTarget "Picnic Panic" */;
+			buildPhases = (
+				233646CB1577C130009B3E81 /* Sources */,
+				233646CC1577C130009B3E81 /* Frameworks */,
+				233646CD1577C130009B3E81 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Picnic Panic";
+			productName = "Picnic Panic";
+			productReference = 233646CF1577C130009B3E81 /* Picnic Panic.app */;
+			productType = "com.apple.product-type.application";
+		};
+		233646EF1577C131009B3E81 /* Picnic PanicTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 233647051577C132009B3E81 /* Build configuration list for PBXNativeTarget "Picnic PanicTests" */;
+			buildPhases = (
+				233646EB1577C131009B3E81 /* Sources */,
+				233646EC1577C131009B3E81 /* Frameworks */,
+				233646ED1577C131009B3E81 /* Resources */,
+				233646EE1577C131009B3E81 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				233646F61577C131009B3E81 /* PBXTargetDependency */,
+			);
+			name = "Picnic PanicTests";
+			productName = "Picnic PanicTests";
+			productReference = 233646F01577C131009B3E81 /* Picnic PanicTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		233646C61577C130009B3E81 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = 233646C91577C130009B3E81 /* Build configuration list for PBXProject "Picnic Panic" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 233646C41577C130009B3E81;
+			productRefGroup = 233646D01577C130009B3E81 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				233646CE1577C130009B3E81 /* Picnic Panic */,
+				233646EF1577C131009B3E81 /* Picnic PanicTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		233646CD1577C130009B3E81 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				233646DE1577C130009B3E81 /* InfoPlist.strings in Resources */,
+				233646EA1577C131009B3E81 /* ViewController.xib in Resources */,
+				234180F3157CFC1500D07700 /* GrassBackground.png in Resources */,
+				234180F6157CFC1F00D07700 /* PicnicTablecloth.png in Resources */,
+				234180F8157CFCAB00D07700 /* Ant2.png in Resources */,
+				23DAA8DE15863702008B5696 /* Default.png in Resources */,
+				2311F0831588DAC300DFFD22 /* Icon.png in Resources */,
+				2311F0901588DE3100DFFD22 /* menuWithoutButtons.png in Resources */,
+				2311F0911588DE3100DFFD22 /* plate2Crumbs.png in Resources */,
+				2311F0921588DE3100DFFD22 /* plate3Crumby.png in Resources */,
+				2311F0931588DE3100DFFD22 /* plateWithCrumbs.png in Resources */,
+				23AEFA55158A305100476267 /* EatingSound.mp3 in Resources */,
+				23AEFA56158A305100476267 /* Soundtrack2.mp3 in Resources */,
+				23AEFA57158A305100476267 /* Splat.mp3 in Resources */,
+				23AEFA5C158A358400476267 /* Sandwich Bite 2.png in Resources */,
+				23AEFA5D158A358400476267 /* Sandwich Bite 4.png in Resources */,
+				23AEFA5E158A358400476267 /* Sandwich Bite 5.png in Resources */,
+				23AEFA5F158A358400476267 /* Sandwich.png in Resources */,
+				23AEFA61158A3A5000476267 /* Game Over.png in Resources */,
+				23AAE571158B82FA00E0CEFE /* creditsPage copy.png in Resources */,
+				23AAE572158B82FA00E0CEFE /* How to Screen copy.png in Resources */,
+				23AAE575158B885100E0CEFE /* Soundtrack2.mp3 in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		233646ED1577C131009B3E81 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				233646FC1577C132009B3E81 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		233646EE1577C131009B3E81 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		233646CB1577C130009B3E81 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				233646E01577C130009B3E81 /* main.m in Sources */,
+				233646E41577C131009B3E81 /* AppDelegate.m in Sources */,
+				233646E71577C131009B3E81 /* ViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		233646EB1577C131009B3E81 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				233646FF1577C132009B3E81 /* Picnic_PanicTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		233646F61577C131009B3E81 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 233646CE1577C130009B3E81 /* Picnic Panic */;
+			targetProxy = 233646F51577C131009B3E81 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		233646DC1577C130009B3E81 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				233646DD1577C130009B3E81 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		233646E81577C131009B3E81 /* ViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				233646E91577C131009B3E81 /* en */,
+			);
+			name = ViewController.xib;
+			sourceTree = "<group>";
+		};
+		233646FA1577C132009B3E81 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				233646FB1577C132009B3E81 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		233647001577C132009B3E81 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		233647011577C132009B3E81 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		233647031577C132009B3E81 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Picnic Panic/Picnic Panic-Prefix.pch";
+				INFOPLIST_FILE = "Picnic Panic/Picnic Panic-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		233647041577C132009B3E81 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Picnic Panic/Picnic Panic-Prefix.pch";
+				INFOPLIST_FILE = "Picnic Panic/Picnic Panic-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		233647061577C132009B3E81 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Picnic Panic.app/Picnic Panic";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Picnic Panic/Picnic Panic-Prefix.pch";
+				INFOPLIST_FILE = "Picnic PanicTests/Picnic PanicTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		233647071577C132009B3E81 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Picnic Panic.app/Picnic Panic";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Picnic Panic/Picnic Panic-Prefix.pch";
+				INFOPLIST_FILE = "Picnic PanicTests/Picnic PanicTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		233646C91577C130009B3E81 /* Build configuration list for PBXProject "Picnic Panic" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				233647001577C132009B3E81 /* Debug */,
+				233647011577C132009B3E81 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		233647021577C132009B3E81 /* Build configuration list for PBXNativeTarget "Picnic Panic" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				233647031577C132009B3E81 /* Debug */,
+				233647041577C132009B3E81 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		233647051577C132009B3E81 /* Build configuration list for PBXNativeTarget "Picnic PanicTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				233647061577C132009B3E81 /* Debug */,
+				233647071577C132009B3E81 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 233646C61577C130009B3E81 /* Project object */;
+}
